@@ -1,4 +1,7 @@
 /* Soluzione qui */
+
+/* TABLET */
+
 @media screen and (min-width:768px) {
     #topbar {
         justify-content: flex-start;
@@ -9,5 +12,52 @@
         display: inline;
     }
 
-   
+    .quick-notes li {
+        display: inline-block;
+        margin: 30px;
+    }
+
+    .btn {
+        padding: 10px 55px;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .ads {
+        display: block;
+    }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width:992px) {
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 70%;
+    }
+
+    .recipe-info {
+        width: 30%;
+    }
+
+    .quick-notes li {
+        display: block;
+        margin-bottom: 55px;
+    }
+
+    .social-networks .label {
+        display: inline;
+        color: black;
+    }
+
+    .social-networks button {
+        padding: 10px 15px;
+    }
 }
