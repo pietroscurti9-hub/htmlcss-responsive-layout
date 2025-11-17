@@ -14,7 +14,6 @@
 
     .quick-notes li {
         display: inline-block;
-        margin: 30px;
     }
 
     .btn {
@@ -41,6 +40,7 @@
 
     .recipe-video {
         width: 70%;
+        height: 400px;
     }
 
     .recipe-info {
@@ -49,7 +49,6 @@
 
     .quick-notes li {
         display: block;
-        margin-bottom: 55px;
     }
 
     .social-networks .label {
@@ -59,5 +58,11 @@
 
     .social-networks button {
         padding: 10px 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
